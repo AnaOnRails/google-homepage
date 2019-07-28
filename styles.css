@@ -20,7 +20,6 @@ a {
     position: absolute;
     top: 0;
     font-size: 13px;
-    color: 000;
     width: 100%;
     margin-top: 22px;
 }
@@ -36,14 +35,6 @@ a {
     float: right;
 }
 
-.logo {
-    height: 122px;
-    width: 290px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 10%;
-}
-
 #apps-icon {
     display: inline-block;
     position: relative;
@@ -53,7 +44,7 @@ a {
 }
 
 #SignIn {
-    color: white                !important;
+    color: white;
     background: #4285f4;
     padding: 8px 12px;
     font-weight: bold;
@@ -61,6 +52,19 @@ a {
     width: 35px;
     opacity: 1;
     margin-right: 25px;
+}
+
+#SignIn a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 122px;
+    width: 290px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10%;
 }
 
 .search-bar {

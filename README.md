@@ -1,13 +1,2 @@
-Create a Google homepage look-alike.
+A Google homepage look-alike, made from scratch. This is a simple exercise to test knowledge of basic HTML and CSS.<br>
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
-
-THINGS THAT I NEED
-
-Top nav bar
-Google Logo
-Search Form (with magnifying glass and mic)
-Two search buttons
-Footer
-
-Code Search bar and logo
-Position them horizontally 
