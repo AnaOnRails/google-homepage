@@ -3,20 +3,28 @@ body {
 }
 
 li {
-    position: relative;
     display: inline;
+    padding-right: 20px;
+    opacity: 0.75;
 }
+.header {
+    position: relative;
+    top: 0;
+    font-size: 13px;
+    color: 000;
+    width: 100%;
+    margin-top: 22px;
+}
+
 .topLeft{
-    margin-left: -20px;
-    padding-right: 35px;
-    font-size: 12px;    
+    display: inline;
+    float: left;
+    margin-left: 25px;  
 }
 
 .topRight {
     display: inline;
-    text-align: right;
-    padding-right: 20px;
-    font-size: 12px;
+    float: right;
 }
 
 .logo {
@@ -24,7 +32,26 @@ li {
     width: 290px;
     display: block;
     margin: 0 auto;
-    padding-top: 9%;
+    padding-top: 5%;
+}
+
+#apps-icon {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    height: 16px;
+    opacity: 0.75;
+}
+
+#SignIn {
+    color: white;
+    background: #4285f4;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 35px;
+    opacity: 1;
+    margin-right: 25px;
 }
 
 .search-bar {
@@ -54,25 +81,25 @@ li {
     margin-top: 35px;
 }
 
+
 #footer {
     position: absolute;
     bottom: 0;
-    font-size: 12px;
-    margin-left: -20px;
+    font-size: 13px;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     height: 40px;
     width: 100%;
+    vertical-align: middle;
 }
 .bottomRight {
-    text-align: right;
+    display: inline;
+    float: right;
+    padding-top: 20px;
 }
 
 .bottomLeft {
-    text-align: left;
-}
-
-#apps-icon {
-    height: 16px;    
-    opacity: 0.50;
+    display: inline;
+    float: left;
+    padding-top: 20px;    
 }
